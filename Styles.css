@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-padding-top: 100px;
+}
+
+
+body{
+  background-color: #95b8d1;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/background.jpg");
+  background-size: 200px;
+  background-position: center;
+  background-repeat: repeat;    
+}
+
+header{  
+  display: flex;
+  min-height: 80px;
+  position: fixed;
+  top: 0px;
+  width: 100%;  
+  background-color: #A585C1;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.5);    
+}
+
+.logo-cont{
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+}
+
+#header-name{
+  display: flex;  
+  align-items: center;
+  font-size: 25px;
+  margin-right: auto;
+  margin-left: 5px;
+  font-family: Lobster Two, sans-serif;
+  color: #DCFFFB;
+  
+}
+
+.logo{  
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  align-content: center;  
+}
+
+.logo > img{    
+  display: flex;
+  height: 60px;
+  max-width: 60px;    
+}
+
+nav {  
+  display: flex;  
+  align-items: center;
+  align-content: flex-end;
+  margin-left: 30px;
+  margin-right: 30px;  
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;  
+}
+
+nav li {  
+  font-size: 20px;
+  font-weight: bold;   
+}
+
+a{
+  color: #fffbdb;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;   
+}
+
+nav li .active{
+  background: #FFFFB5;
+  font-weight: bold;
+  color: #444;
+  border-radius: 20%;
+}
+
+.fill-div{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
+@media (max-width: 850px) {
+  nav {     
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;     
+  }
+  nav li{
+    font-size: 15px;
+  }
+
+  nav ul{
+    flex-direction: column;
+  }
+
+  header{
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    text-align: center;    
+  }
+
+  #header-name{
+    font-size: 20px;          
+  }
+
+  .logo-cont{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: -40px;
+  }
+
+  .logo img{
+    height: 40px;
+    max-width: 40px;
+    margin-right: 5px;
+  }
+
+  #hiw{
+    display: none;
+  }
+
+  nav li a{
+    text-transform: uppercase;
+    padding: 0;
+    padding-bottom: 5px;
+  }
+  
+  nav li .active{
+    background: none;
+    color: #fffbdb
+  } 
+  
+}
+
+
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  margin-top: 80px;
+  background: #ABDEE6;
+  padding: 20px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #FFF;  
+}
+
+#hero > h2 {
+  margin-bottom: 10px; 
+  word-wrap: break-word;
+  padding-top: 20px;    
+}
+
+#hero input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+.btn {  
+  height: 40px;  
+  text-transform: uppercase;  
+  cursor: pointer;
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;  
+  background-color:  transparent;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.5);     
+}
+
+#hero input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 50px;
+  margin: 15px;  
+  background-color: #F3B0C3;
+  font-size: 16px;  
+  padding: 0px;
+  font-weight: 800;
+  color: black;
+  border:0;  
+}
+
+#hero input[type='submit']:hover{
+  background-color: #CBAACB ;
+  border: 2px solid #444;
+  color: white;  
+}
+
+@media (max-width: 850px) {
+  #hero{    
+    margin-top: 80px;
+  }
+}
+
+.container{  
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;    
+  background: #FFDFD3;
+  margin: auto auto;
+  padding: 0px;
+  margin-top: 0px;  
+  min-height: 400px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-bottom: 0;
+  
+}
+.grid{
+  display: flex;  
+  align-items: center;
+}
+
+#features{
+  margin-top: 20px;
+}
+
+.icon{
+  margin-left: 20px;
+}
+
+.icon img{
+  width: 70px;
+}
+
+.desc{
+  padding: 20px;
+}
+
+#how-it-works{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe{
+  max-width: 560px;
+  width: 100%;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.5); 
+}
+
+@media (max-width: 850px) {
+  #how-it-works  iframe{
+    margin: 20px;  
+  }
+
+}
+
+#pricing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 15px 30px 15px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: calc(100% /3);
+  min-width: 250px;
+  margin: 15px;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.level{
+  padding: 10px 0;
+  background-color: #D291BC;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;   
+  align-content: center;
+  align-items: center;    
+}
+
+
+.level img{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;  
+}
+
+.level > p{
+  margin-right: auto; 
+  width: 100%;
+}
+
+.product > h2{
+  margin-top: 10px;}
+
+.product ol{
+  list-style-type: none;
+  margin: 15px;
+}
+
+.product ol li{
+  padding: 5px;
+}
+
+.product button{
+  box-shadow: none;
+  border: 0;
+  margin: 15px;
+  font-weight: 600;
+  max-width: 100px;
+  width: 100%;
+  background-color: #D291BC;  
+}
+
+.product button:hover{
+  background-color: #FFFFB5;
+  color:  #000;
+  border: 3px solid #fff;
+}
+
+@media (max-width: 850px) {
+  #pricing {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+footer {
+  margin-top: 0px;
+  background-color: #E0BBE4;
+  padding: 20px;
+  border: 2px solid #fff;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;  
+}
+
+footer > ul > li {
+  padding: 0 10px;  
+}
+
+footer > ul> li> a{
+  color: black;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}

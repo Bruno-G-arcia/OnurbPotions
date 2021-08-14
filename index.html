@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title id="pageTitle">Onurb Potions</title>
+    <meta property="og:url"                content="https://codepen.io/bruno-g-arcia/project/full/ZgvboG" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Onurb Potions" />
+    <meta property="og:description"        content="So Beautiful" />
+    <meta property="og:image"              content="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/plogo_res.png" />
+    <link rel="icon" href="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/plogo_res.png">
+
+    <link rel="stylesheet" href="./styles.css">
+
+
+  </head>
+  <body>
+
+    <header id="header">      
+      <div class="logo-cont" onclick="location.href='#';" style="cursor: pointer;">        
+        <div class="logo">
+          <img id="header-img" 
+          src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/plogo_res.png" alt="cauldron logo"          
+          />
+        </div>      
+        <div id="header-name"><h2>Onurb Potions</h2></div>
+      </div>
+      
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="active" href="#features">Features</a></li>
+          <li><a class="nav-link" id="hiw" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Bottled Solutions for Any Problems</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">  
+        <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email adress"
+        required
+        />
+        <input id="submit" type="submit" value="Get Started" class="btn"/>
+      </form>
+    </section>
+
+    <div class="container">      
+
+      <section id="features">        
+        
+        <div class="grid">
+          <div class="icon">
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/eye_res.png" alt="Bat Eyeball">
+
+          </div>
+          <div class="desc">
+            <h2>Quality Materials</h2>
+            <p>Our potions are made with only top-tier, fresh, high-quality materials. Our herbs and animal parts are colected only from the best fields of hyrule.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon">
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/kiki_res.png" alt="kiki">
+
+          </div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>The potions are safely packaged inside magical boxes and distributed by Kiki's delivery service™..</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon">
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/goblin_res.png" alt="goblin">
+          </div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>Our loyal goblins employees drink samples of every potion to assure their effects are fully working as intended.</p>
+          </div>
+        </div>
+      </section>
+              
+      <section id="how-it-works">
+        <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/Vn4o6DQ8L2Y"
+        frameborder="0"
+        allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        
+        <div class="product" id="health-potion">          
+          <div class="level">              
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/health_res.png" alt="Health Potion">
+            <p>Health Potion</p>
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/health_res.png" alt="Health Potion">            
+          </div>
+          
+          <h2>$100</h2>
+          <ol>
+            <li>Heals up to 69 hp</li>
+            <li>Strawberry Flavor</li>
+            <li>Instantaneous Effect</li>
+            <li>Throwable</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="stamina-potion">          
+          <div class="level">
+            <div class="product-icon">
+              <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/stamina_res.png" alt="Stamina Potion">
+            </div>
+            <p>Stamina Potion<p>
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/stamina_res.png" alt="Stamina Potion">
+          </div>
+          
+          <h2>$150</h2>
+          <ol>
+            <li>Run as fast as the wind</li>
+            <li>Never loose your breath</li>
+            <li>Lemon flavor</li>
+            <li>Stop training cardio</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="elixir">
+          <div class="level">
+            <div class="product-icon">
+              <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/elixir_res.png" alt="Stamina Potion">
+            </div>
+            <p>Elixir<p>
+            <img src="https://raw.githubusercontent.com/Bruno-G-arcia/PotionsShop/main/elixir_res.png" alt="Stamina Potion">            
+          </div>
+          <h2>$200</h2>
+          <ol>
+            <li>Revigorating</li>
+            <li>Health and Stamina</li>
+            <li>Orange flavor</li>
+            <li>Bubbly</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div> 
+      </section>      
+    </div>
+    
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, Onurb Potions™</span>
+    </footer>    
+  </body>
+</html> 
+

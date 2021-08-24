@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T22:18:37.901Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.8" etag="kRmd1C9B5WSgF2pLuCxi" type="github"><diagram id="P_9RDSH5_rNA49bG38G4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-24T22:31:15.705Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="WAw7la9UBzIwAQ60W6FH" version="14.9.8" type="github">
+  <diagram id="P_9RDSH5_rNA49bG38G4" name="Page-1">
+    <mxGraphModel dx="862" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XTyNECiNephLH-Oog1H6-1" value="&lt;font style=&quot;font-size: 25px&quot;&gt;&lt;b&gt;CICLO DE VIDA DO PROJETO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="80" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-3" target="XTyNECiNephLH-Oog1H6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-3" target="XTyNECiNephLH-Oog1H6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-3" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;OBTENÇÃO DOS REQUISITOS PRELIMINARES&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-4" target="XTyNECiNephLH-Oog1H6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-4" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;ANÁLISE DOS REQUISITOS&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="350" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-5" target="XTyNECiNephLH-Oog1H6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-5" target="XTyNECiNephLH-Oog1H6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-5" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;PROTOMODELAGEM&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="355" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-6" target="XTyNECiNephLH-Oog1H6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-25" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;rounded=0;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-6" target="XTyNECiNephLH-Oog1H6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-6" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;CODIFICAÇÃO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-8" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;ITERAÇÕES DO PROTÓTIPO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-9" target="XTyNECiNephLH-Oog1H6-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-9" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;ITERAÇÕES DO PRODUTO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-10" target="XTyNECiNephLH-Oog1H6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=none;curved=1;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-10" target="XTyNECiNephLH-Oog1H6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-10" target="XTyNECiNephLH-Oog1H6-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="505" />
+              <mxPoint x="340" y="460" />
+              <mxPoint x="401" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-10" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;TÉCNICAS 4G&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="123.75" y="480" width="162.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-11" target="XTyNECiNephLH-Oog1H6-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-11" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;TESTES&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="690" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="XTyNECiNephLH-Oog1H6-12" target="XTyNECiNephLH-Oog1H6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-12" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;SISTEMA&amp;nbsp; COMPLETO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="750" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XTyNECiNephLH-Oog1H6-13" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;MANUTENÇÃO&lt;/b&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="850" width="195" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
